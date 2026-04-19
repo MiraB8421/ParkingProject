@@ -1,1 +1,116 @@
-index.md
+MIRA MEHDI BARK (1221 ED)
+MA Project
+Smart Dual-Barrier Parking System with NFC and Coin Detection:
+1. Project Description (Functionality)
+This project presents a smart parking barrier system using the STM32 NUCLEO-U545RE microcontroller designed to simulate a realistic automated parking management system. The system includes three main stations: an entry barrier station, a payment station, and an exit barrier station.
+When a vehicle arrives at the parking entrance, an ultrasonic sensor detects its presence and automatically opens the entry barrier using a servo motor. At this moment, the vehicle is registered in the system with a status marked as not paid.
+After entering the parking area, the vehicle moves to the payment station. In order to complete payment, the driver must perform both actions together:
+•	Scan the NFC tag using the first NFC reader
+•	Insert a coin through the coin slot detected by the IR sensor
+Only when both the NFC scan and the coin insertion are detected does the system update the vehicle status to paid and store this information in memory.
+Later, when the vehicle reaches the exit barrier station, a second NFC reader scans the same NFC tag again. The STM32 checks whether payment has already been completed.
+If payment is confirmed:
+•	The exit barrier opens using a servo motor
+•	The green LED turns ON
+•	The LCD displays "Payment Confirmed"
+If payment has not been completed:
+•	The barrier remains closed
+•	The red LED turns ON
+•	The buzzer produces a warning sound
+•	The LCD displays "Payment Required"
+This system simulates a real-world smart parking control solution using embedded systems, sensors, and automated verification logic.
+
+________________________________________
+2. Motivation for Choosing the Project
+This project was chosen to demonstrate how embedded systems can automate real-life applications such as parking control. It combines hardware and software integration using sensors, actuators, and a microcontroller while improving security and reducing manual supervision in parking systems.
+________________________________________
+3. System Architecture
+System workflow:
+1.	Car detected at entry gate
+2.	Entry barrier opens
+3.	Car marked NOT PAID
+4.	Car stops at payment station
+5.	NFC card scanned
+6.	Coin inserted
+7.	IR sensor detects coin
+8.	System confirms payment
+9.	Car moves to exit gate
+10.	Second NFC reader scans card
+11.	Payment verified
+12.	Exit barrier opens (if paid)
+13.	Otherwise, alarm activates________________________________________
+4. Components and Interconnections
+The system uses the following components connected to the STM32 board through a breadboard and jumper wires:
+•	STM32 NUCLEO-U545RE – main controller 
+•	Two NFC reader (PN532) – reads authorization card 
+•	 Two Servo motor – opens and closes the barrier 
+•	LCD display (16×2) – shows status messages 
+•	Green LED – indicates access granted 
+•	Red LED – indicates access denied 
+•	Buzzer – activates when access is denied 
+•	Breadboard and jumper wires – connect components
+•	Ultrasonic distance sensor – detects vehicle entry into parking area
+•	IR Sensor – Coin detection 
+
+
+ 
+
+
+
+
+5. Hardware Design
+Description of the Hardware Used
+•	STM32 NUCLEO-U545RE – main controller that processes RFID data and controls all components 
+•	Two NFC reader (PN532) – scans the card and sends authorization data to STM32 
+•	Two Servo Motor (SG90) – opens or closes the barrier 
+•	LCD Display (16×2) – shows messages like Access Granted or Access Denied 
+•	Green LED – indicates access granted 
+•	Red LED – indicates access denied 
+•	Buzzer – sounds when access is denied 
+•	Breadboard & Jumper Wires – connect all components together without soldering
+•	Ultrasonic distance sensor  –  detects the vehicle from a distance to open the barrier
+•	IR Senor - Detects coin passing through slot.
+
+
+6. Software Design
+The software is developed using Rust in Visual Studio Code with STM32 support libraries. The program reads NFC card data and IR Sensor, verifies authorization, and controls outputs such as the servo motor, LEDs, buzzer, and LCD display. The system continuously waits for an NFC scan, IR Sensor and responds depending on whether access is granted or denied.
+________________________________________
+7. Detailed Design
+Program workflow:
+1.	Initialize peripherals
+2.	Detect vehicle at entry
+3.	Open entry barrier
+4.	Set status NOT PAID
+5.	Wait for NFC scan
+6.	Detect coin insertion
+7.	Confirm both actions
+8.	Set status PAID
+9.	Scan NFC at exit
+10.	Verify payment
+If valid:
+•	Open exit barrier
+•	Green LED ON
+If invalid:
+•	Keep barrier closed
+•	Red LED ON
+•	Buzzer ON
+o	 
+8. BILL OF MATERIALS
+Device	Usage	Price
+STM32 NUCLEO-U545RE	Main microcontroller	105 RON
+Set of two NFC (PN532)	Card/User authentication	84 RON
+SG90 Servo Motor	Barrier movement	56 RON
+16×2 LCD (I2C)	Display status messages	24 RON
+LED Kit	Access indicator	25 RON
+Buzzer Module	Warning sound output	19RON
+Jumper Wires/Ultrasonic Distance Sensor	Component connections	10 RON/37RON
+
+9. Software Libraries
+•	Embassy-futures
+•	Embassy-time
+•	Embassy-dfmt
+•	Embassy-sync
+•	Embassy-executor
+•	Embassy-embedded-hal
+
+
