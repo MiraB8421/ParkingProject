@@ -1,4 +1,6 @@
-#Smart Dual-Barrier Parking System with NFC and Coin Detection
+# Smart Dual-Barrier Parking System with NFC and Coin Detection
+
+
 A smart parking barrier system designed to simulate a realistic automated parking management 
 
 ::info 
