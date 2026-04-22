@@ -52,16 +52,16 @@ The system is built around the STM32 NUCLEO-U545RE microcontroller, which acts a
 
 | Device | Usage | Price |
 | :--- | :--- | :--- |
-| STM32 NUCLEO-U545RE-Q | The main microcontroller | ~125 RON |
-| Set of two NFC Reader | Card/User authentication | ~84 RON |
-| Servo Motor | Barrier Movement | ~56 RON |
-| LCD | Display Status Message | ~24 RON |
-| LED Kit | Access indicator | ~25 RON |
-| Buzzer | Warning sound output | ~19 RON |
-| Jumper Wires | Components connections | ~10 RON |
-| Ultrasonic distance sensor  | Sensor detection | ~37 RON |
-| Breadboard | Circuit Prototyping | ~10 RON |
-| IR sensor | Coin detection | ~19 RON |
+| [STM32 NUCLEO-U545RE-Q]() | The main microcontroller | [125 RON](https://ro.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-U545RE-Q?qs=mELouGlnn3cp3Tn45zRmFA%3D%3D) |
+| [Set of two NFC Reader]() | Card/User authentication | [84 RON](https://www.emag.ro/set-de-2-module-pn532-nfc-rfid-v3-kit-cititor-nfc-si-rfid-pn532-include-card-nfc-cip-rfid-si-card-rfid-compatibil-cu-arduino-telefoane-android-si-microcontrolere-et000008/pd/DSM0JR3BM/?ref=fav_pd-title) |
+| [Servo Motor]() | Barrier Movement | [56 RON](https://www.emag.ro/servomotor-sg90-180-de-grade-ai156-s297/pd/D33V1GMBM/) |
+| [LCD]() | Display Status Message | [24 RON](https://www.emag.ro/display-lcd-2-x-16-cu-convertor-i2c-80-x-35-mm-verde-albastru-negru-2-e-001/pd/DHRJ0LMBM/?ref=fav_pd-title) |
+| [LED Kit]() | Access indicator | [25 RON](https://www.emag.ro/kit-200-buc-led-3mm-5mm-de-diferite-culori-ai707/pd/D4DJYTMBM/?ref=fav_pd-title) |
+| [Buzzer]() | Warning sound output | [19 RON](https://www.emag.ro/buzzer-activ-12v-compatibil-arduino-raspberry-oky0151-dh000016/pd/DH5QQL3BM/?ref=fav_pd-title) |
+| [Jumper Wires]() | Components connections | [10 RON](https://www.emag.ro/set-40-cabluri-jumper-tata-tata-pentru-breadboard-multicolore-20cm-034-030/pd/D18P4G3BM/?ref=fav_pd-title) |
+| [Ultrasonic distance sensor]()  | Sensor detection | [37 RON](https://www.emag.ro/modul-senzor-ultrasonic-detector-distanta-hc-sr04-xbaxah-ultrasonic/pd/D5HMPD2BM/) |
+| [Breadboard]() | Circuit Prototyping | [10 RON](https://www.emag.ro/breadboard-h-hct-tronic-830-puncte-de-conectare-abs-200x630-puncte-034-066/pd/DBNQ7R3BM/?ref=fav_pd-title) |
+| [IR sensor]() | Coin detection | [19 RON](https://www.emag.ro/modul-senzor-evitare-obstacol-ir-ai395-s333/pd/DNB572MBM/?ref=fav_pd-title) |
 
 
 ## Software
