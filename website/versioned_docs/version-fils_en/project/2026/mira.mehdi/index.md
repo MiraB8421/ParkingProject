@@ -37,7 +37,7 @@ This system is built using **STM32 NUCLEO-U545RE-Q** which coordinates all funct
 * Ordered the hardware components for the project
 
 ## Week 7
-* Started to work on components testing
+* Started to connect components
 
 ## Hardware
 
@@ -79,6 +79,6 @@ The system is built around the STM32 NUCLEO-U545RE microcontroller, which acts a
 
 
 ## Links
-1.[NFC implementation](https://www.compilenrun.com/docs/iot/stm32/stm32-connectivity/stm32-nfc-implementation/)
-2.[Inspriation](https://www.udemy.com/course/arduino-parking-system/?utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.ROW-English&utm_source=bing&utm_medium=paid-search&portfolio=Bing-ROW-English&utm_audience=mx&utm_tactic=nb&utm_term=_._ag_1326013411676364_._ad__._kw_IT+en&utm_content=o&funnel=&test=&utm_campaign_id=638596229&msclkid=fe60804b87d2130a5d24e9a273befa2b&couponCode=PMNVD2025)
+1. [NFC implementation](https://www.compilenrun.com/docs/iot/stm32/stm32-connectivity/stm32-nfc-implementation/)
+2. [Inspriation](https://www.udemy.com/course/arduino-parking-system/?utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.ROW-English&utm_source=bing&utm_medium=paid-search&portfolio=Bing-ROW-English&utm_audience=mx&utm_tactic=nb&utm_term=_._ag_1326013411676364_._ad__._kw_IT+en&utm_content=o&funnel=&test=&utm_campaign_id=638596229&msclkid=fe60804b87d2130a5d24e9a273befa2b&couponCode=PMNVD2025)
 
