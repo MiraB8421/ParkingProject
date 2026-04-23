@@ -72,11 +72,13 @@ The system is built around the STM32 NUCLEO-U545RE microcontroller, which acts a
 | [embassy-embedded-hal](https://crates.io/crates/embassy-embedded-hal) | Async hardware interface for embedded-hal | Used for control of SPI communication like sensors and peripherals |
 | [embassy-time](https://crates.io/crates/embassy-time) | Timekeeping, delays, and timeouts | Used for timers,delays and timeouts |
 | [embassy-sync](https://crates.io/crates/embassy-sync) | no-std, no synchronization primitives with async support. | Used to create safe communication between tasks |
-| [embassy-dfmt](https://crates.io/crates/embassy-dfmt) | Debug logging system | Used for printing debug message fromthe microcontroller |
-| [embassy-futures](https://crates.io/crates/embassy-futures) | Async help utilities | Used to mange tasks and futures embedded programs |
+| [embassy-defmt](https://defmt.ferrous-systems.com/) | Debug logging system | Used for printing debug message fromthe microcontroller |
+| [embassy-futures](https://docs.embassy.dev/embassy-futures/git/default/index.html) | Async help utilities | Used to mange tasks and futures embedded programs |
 
 
 
 
 ## Links
+1.[NFC implementation](https://www.compilenrun.com/docs/iot/stm32/stm32-connectivity/stm32-nfc-implementation/)
+2.[Inspriation](https://www.udemy.com/course/arduino-parking-system/?utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.ROW-English&utm_source=bing&utm_medium=paid-search&portfolio=Bing-ROW-English&utm_audience=mx&utm_tactic=nb&utm_term=_._ag_1326013411676364_._ad__._kw_IT+en&utm_content=o&funnel=&test=&utm_campaign_id=638596229&msclkid=fe60804b87d2130a5d24e9a273befa2b&couponCode=PMNVD2025)
 
