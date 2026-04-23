@@ -68,6 +68,14 @@ The system is built around the STM32 NUCLEO-U545RE microcontroller, which acts a
 
 | Library | Description | Usage |
 | :--- | :--- | :--- |
+|[embassy-executor](https://crates.io/crates/embassy-executor) | Await executor optimized for embedded systems |  Without an operating system it runs asynchronous |
+| [embassy-embedded-hal](https://crates.io/crates/embassy-embedded-hal) | Async hardware interface for embedded-hal | Used for control of SPI communication like sensors and peripherals |
+| [embassy-time](https://crates.io/crates/embassy-time) | Timekeeping, delays, and timeouts | Used for timers,delays and timeouts |
+| [embassy-sync](https://crates.io/crates/embassy-sync) | no-std, no synchronization primitives with async support. | Used to create safe communication between tasks |
+| [embassy-dfmt](https://crates.io/crates/embassy-dfmt) | Debug logging system | Used for printing debug message fromthe microcontroller |
+| [embassy-futures](https://crates.io/crates/embassy-futures) | Async help utilities | Used to mange tasks and futures embedded programs |
+
+
 
 
 ## Links
