@@ -26,7 +26,7 @@ This system is built using **STM32 NUCLEO-U545RE-Q** which coordinates all funct
 * **Exit Verification Module:** Checks the vehicle’s payment status using the second NFC scan at the exit gate and if the payment is confirmed or denied.
 * **User Notification Module:** Displays messages and activates visual and audio alerts depending on payment status.
 
-![Schematic diagram](diagram.png)
+![Schematic diagram](diagram.webp)
 ## Log
 
 ## Week 2
